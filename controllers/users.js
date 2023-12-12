@@ -100,4 +100,4 @@ const friendSuggestion=async(req,res,next)=>{
 }
 
 module.exports={getAllRegistration,sendFriendRequest,acceptFriendRequest,friendSuggestion}
-///i am iiii
+///i am iiii rr
