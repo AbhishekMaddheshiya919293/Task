@@ -101,4 +101,5 @@ const friendSuggestion=async(req,res,next)=>{
 
 module.exports={getAllRegistration,sendFriendRequest,acceptFriendRequest,friendSuggestion}
 ///i am iiii rr  r  t  gggg
-//onnce upon a time  fg
+//onnce upon a time  fgfff
+let p=0;
