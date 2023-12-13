@@ -105,3 +105,4 @@ module.exports={getAllRegistration,sendFriendRequest,acceptFriendRequest,friendS
 let p=0;
 let t=0;
 let r=0;
+let k=0;
