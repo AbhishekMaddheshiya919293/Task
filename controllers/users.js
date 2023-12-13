@@ -103,3 +103,5 @@ module.exports={getAllRegistration,sendFriendRequest,acceptFriendRequest,friendS
 ///i am iiii rr  r  t  gggg
 //onnce upon a time  fgfff
 let p=0;
+let t=0;
+let r=0;
