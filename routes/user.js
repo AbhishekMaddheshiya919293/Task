@@ -12,3 +12,5 @@ router.put('/:request_id/acceptFriendRequest',verifyToken,userController.acceptF
 //Route handler for getting friend suggestion we are not taking any database for friendsSuggestion field
 router.get('/friendsSuggestion',verifyToken,userController.friendSuggestion);
 module.exports=router;
+// Now all fine for agreeing on these all kind of resource as we move forward 
+// we are expecting in class

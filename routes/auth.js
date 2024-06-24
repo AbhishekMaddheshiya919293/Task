@@ -15,3 +15,4 @@ authController.registration);
 router.post('/signin',authController.signin);
 
 module.exports=router;
+// testing this things to the following criteria as we go back to these things
