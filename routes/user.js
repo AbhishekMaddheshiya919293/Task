@@ -13,4 +13,4 @@ router.put('/:request_id/acceptFriendRequest',verifyToken,userController.acceptF
 router.get('/friendsSuggestion',verifyToken,userController.friendSuggestion);
 module.exports=router;
 // Now all fine for agreeing on these all kind of resource as we move forward 
-// we are expecting in class
+// we are expecting 
