@@ -18,3 +18,4 @@ module.exports=router;
 // take these things in the following
 // many og you
 // this is take
+// i am out
