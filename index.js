@@ -17,7 +17,7 @@ console.log('CPU Information:', cpus.length);
 const avgCPUUsage = os.loadavg();
 console.log('Average CPU Usage (1 min):', avgCPUUsage[0]);
 dotenv.config();
-//this is a function declartion for connecting mongodb database
+//this is a function declartion for connecting mongodb database it  is
 const connect = () => {
   mongoose
     .connect(process.env.MONGO_URL)
