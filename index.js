@@ -19,7 +19,9 @@ const connect = () => {
       throw err;
     });
 };
-
+// we are here
+const cpuUsage = process.cpuUsage();
+console.log('CPU Usage:', cpuUsage);
 //middlewares
 app.use(cookieParser())
 app.use(express.json());
