@@ -14,3 +14,4 @@ router.get('/friendsSuggestion',verifyToken,userController.friendSuggestion);
 module.exports=router;
 // Now all fine for agreeing on these all kind of resource as we move forward 
 // we are expecting 
+// these are following criteria in this line of the
