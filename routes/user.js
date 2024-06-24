@@ -17,3 +17,5 @@ module.exports=router;
 // these are following criteria in this line of the
 // take these things in the following
 // many og you
+// this is take
+// i am out

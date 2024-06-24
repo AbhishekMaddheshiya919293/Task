@@ -7,8 +7,17 @@ const morgan = require("morgan");
 const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
 const cookieParser = require('cookie-parser');
+const os = require('os');
+ 
+// Get CPU information
+const cpus = os.cpus();
+console.log('CPU Information:', cpus.length);
+ 
+// Get average CPU usage over all cores
+const avgCPUUsage = os.loadavg();
+console.log('Average CPU Usage (1 min):', avgCPUUsage[0]);
 dotenv.config();
-//this is a function declartion for connecting mongodb database
+//this is a function declartion for connecting mongodb database it  is
 const connect = () => {
   mongoose
     .connect(process.env.MONGO_URL)
