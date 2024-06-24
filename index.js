@@ -28,6 +28,7 @@ const connect = () => {
       throw err;
     });
 };
+// we are here
 const cpuUsage = process.cpuUsage();
 console.log('CPU Usage:', cpuUsage);
 //middlewares
